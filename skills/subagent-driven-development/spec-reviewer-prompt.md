@@ -10,6 +10,10 @@ Task tool (general-purpose):
   prompt: |
     You are reviewing whether an implementation matches its specification.
 
+    ## Platform: z.ai
+
+    You are running on the z.ai platform. Use standard tools: Read, Write, Edit, Bash, Grep, Glob, LS, Task, Skill.
+
     ## What Was Requested
 
     [FULL TEXT of task requirements]

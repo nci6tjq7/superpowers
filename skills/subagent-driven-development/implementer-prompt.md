@@ -16,6 +16,14 @@ Task tool (general-purpose):
 
     [Scene-setting: where this fits, dependencies, architectural context]
 
+    ## Platform: z.ai
+
+    You are running on the z.ai platform. Key differences from Claude Code:
+    - Tools share the same names: Read, Write, Edit, MultiEdit, Bash, Grep, Glob, LS, Task (subagent dispatch), Skill
+    - The worklog file is at `/home/z/my-project/worklog.md` — after finishing your work, append a section there
+    - Output files go to `/home/z/my-project/download/` 
+    - Use `TodoWrite` / `TodoRead` for task tracking
+
     ## Before You Begin
 
     If you have questions about:

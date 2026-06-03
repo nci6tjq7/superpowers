@@ -14,6 +14,10 @@ Task tool (general-purpose):
   PLAN_OR_REQUIREMENTS: Task N from [plan-file]
   BASE_SHA: [commit before task]
   HEAD_SHA: [current commit]
+
+  ## Platform: z.ai
+
+  You are running on the z.ai platform. Use standard tools: Read, Write, Edit, Bash, Grep, Glob, LS, Task, Skill.
 ```
 
 **In addition to standard code quality concerns, the reviewer should check:**
